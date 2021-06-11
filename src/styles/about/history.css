@@ -1,0 +1,413 @@
+.about_history{
+    padding: 199px 0 134px 0;
+}
+.about_history_heading{
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 26px;
+    text-align: center;
+    margin: 0 0 71px 0;
+}
+.brending{
+    display: flex;
+}
+.history_data{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 26px;
+    color: #1B9448;
+    margin: 40px 150px 0 0;
+}
+.hictory_position hr{
+    border: 1px dashed #6AB66B;
+}
+.history_logo1{
+    background-image: url(../../picture/history/history1.png);
+    width: 171px;
+    height: 86px;
+}
+.history_logo2{
+    background-image: url(../../picture/history/history2.png);
+    width: 148px;
+    height: 94px;
+    margin: 0 24px 0 0;
+}
+.history_logo3{
+    background-image: url(../../picture/history/history3.png);
+    width: 150px;
+    height: 70px;
+    margin: 0 24px 0 0;
+}
+.history_logo4{
+    background-image: url(../../picture/history/history4.png);
+    width: 150px;
+    height: 134px;
+    margin: 0 24px 0 0;
+}
+.history_logo5{
+    background-image: url(../../picture/history/history5.png);
+    width: 161px;
+    height: 112px;
+    margin: 0 14px 5px 0;
+}
+.hictory_position5 >.text_oll{
+    margin: 76px 0 0 58px;
+}
+.history_logo51{
+    background-image: url(../../picture/history/history51.png);
+    width: 151px;
+    height: 56px;
+    
+}
+.history_logo6{
+    background-image: url(../../picture/history/history6.png);
+    width: 148px;
+    height: 148px;
+    margin: 0 34px 0 0;
+}
+.hictory_position6 >.text_oll{
+    margin: 57px 0 0 58px;
+}
+.history_logo7{
+    background-image: url(../../picture/history/history7.png);
+    width: 148px;
+    height: 59px;
+    margin: 0 34px 0 0;
+}
+.hictory_position7 >.text_oll{
+    margin: 57px 0 0 58px;
+}
+.history_logo71{
+    background-image: url(../../picture/history/history71.png);
+    width: 148px;
+    height: 124px;
+}
+.history_logo8{
+    background-image: url(../../picture/history/history8.png);
+    width: 148px;
+    height: 41px;
+    margin: 20px 34px 0 0;
+}
+.history_logo9{
+    background-image: url(../../picture/history/history9.png);
+    width: 149px;
+    height: 149px;
+    margin: 0 34px 0 0;
+}
+.history_logo10{
+    background-image: url(../../picture/history/history10.png);
+    width: 148px;
+    height: 82px;
+    margin: 0 34px 0 0;
+}
+.hictory_position10 >.text_oll{
+    margin: 57px 0 0 58px;
+}
+.history_logo101{
+    background-image: url(../../picture/history/history101.png);
+    width: 148px;
+    height: 94px;
+    margin: 0 34px 0 0;
+}
+.history_logo11{
+    background-image: url(../../picture/history/history11.png);
+    width: 148px;
+    height: 67px;
+    margin: 0 34px 0 0;
+}
+.history_logo12{
+    background-image: url(../../picture/history/history12.png);
+    width: 151px;
+    height: 60px;
+    margin: 0 34px 0 0;
+}
+.history_logo13{
+    background-image: url(../../picture/history/history13.png);
+    width: 148px;
+    height: 58px;
+    margin: 0 34px 0 0;
+}
+.history_logo14{
+    background-image: url(../../picture/history/history14.png);
+    width: 148px;
+    height: 133px;
+    margin: 0 34px 0 0;
+}
+.history_logo15{
+    background-image: url(../../picture/history/history15.png);
+    width: 148px;
+    height: 79px;
+    margin: 0 34px 0 0;
+}
+.history_logo16{
+    background-image: url(../../picture/history/history16.png);
+    width: 121px;
+    height: 240px;
+    margin: 0 60px 0 0;
+}
+.hictory_position16 >.text_oll{
+    margin: 57px 0 0 58px;
+}
+.history_logo17{
+    background-image: url(../../picture/history/history17.png);
+    width: 148px;
+    height: 120px;
+    margin: 0 34px 0 0;
+}
+.hictory_position17 >.text_oll{
+    margin: 45px 0 0 58px;
+}
+.history_logo18{
+    background-image: url(../../picture/history/history18.png);
+    width: 179px;
+    height: 76px;
+    margin: 0 8px 0 0;
+}
+.history_logo19{
+    background-image: url(../../picture/history/history19.png);
+    width: 148px;
+    height: 28px;
+    margin: 0 34px 0 0;
+}
+.history_logo191{
+    background-image: url(../../picture/history/history191.png);
+    width: 148px;
+    height: 89px;
+    
+}
+.history_logo20{
+    background-image: url(../../picture/history/history20.png);
+    width: 150px;
+    height: 100px;
+    margin: 0 34px 0 0;
+}
+.text_oll{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 15px 0 0 58px;
+}
+.hictory_position{
+    width: 912px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 944px){
+.brending{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 638px;
+}
+.hictory_position{
+    width: 657px;
+}
+.text_oll{
+    margin: 15px 0 0 226px;
+}
+.hictory_position5 >.text_oll{
+    margin: 28px 0 0 226px;
+}
+.hictory_position6 >.text_oll{
+    margin: 0 0 0 226px;
+}
+.hictory_position7 >.text_oll{
+    margin: 28px 0 0 226px;
+}
+.hictory_position10 >.text_oll{
+    margin: 28px 0 0 226px;
+}
+.hictory_position16 >.text_oll{
+    margin: 28px 0 0 226px;
+}
+.hictory_position17 >.text_oll{
+    margin: 28px 0 0 226px;
+}
+.str{
+    display: flex;
+}
+.history_logo51{
+    margin: 41px 0 0 0;
+}
+.history_logo7{
+    margin: 60px 20px 0 0;
+}
+.history_logo19{
+    margin: 40px 20px 0 0;
+}
+}
+@media screen and (max-width: 747px){
+.text_oll{
+    font-size: 17px;
+    line-height: 22px;
+    margin: 15px 0 0 105px;
+}
+.text_oll br{
+    display: none;
+}
+.about_history_heading{
+    font-size: 22px;
+    line-height: 26px;
+}
+.hictory_position{
+    width: 365px;
+}
+.brending{
+    width: 365px;
+}
+.history_data{
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 20px 60px 0 0;
+}
+.history_logo1{
+    width: 123px;
+    height: 62px;
+    background-size: cover;
+}
+.history_logo2{
+    width: 91px;
+    height: 58px;
+    background-size: cover;
+}
+.history_logo3{
+    width: 93px;
+    height: 43px;
+    background-size: cover;
+}
+.hictory_position3 >.text_oll{
+    margin: 15px 0 0 105px;
+}
+.history_logo4{
+    width: 93px;
+    height: 83px;
+    background-size: cover;
+}
+.history_logo5{
+    width: 93px;
+    height: 64px;
+    background-size: cover;
+}
+.hictory_position5 >.text_oll{
+    margin: 15px 0 0 105px;
+}
+.history_logo51{
+    width: 93px;
+    height: 34px;
+    background-size: cover;
+    margin: 24px 0 0 0;
+}
+.history_logo6{
+    width: 93px;
+    height: 93px;
+    background-size: cover;
+}
+.hictory_position6 >.text_oll{
+    margin: 15px 0 0 105px;
+}
+.history_logo7{
+    width: 93px;
+    height: 37px;
+    background-size: cover;
+    margin: 39px 20px 0 0;
+}
+.hictory_position7 >.text_oll{
+    margin: 15px 0 0 105px;
+}
+.history_logo71{
+    width: 93px;
+    height: 77px;
+    background-size: cover;
+}
+.history_logo8{
+    width: 93px;
+    height: 25px;
+    background-size: cover;
+}
+.history_logo9{
+    width: 93px;
+    height: 93px;
+    background-size: cover;
+}
+.history_logo10{
+    width: 93px;
+    height: 51px;
+    background-size: cover;
+}
+.hictory_position10 >.text_oll{
+    margin: 15px 0 0 105px;
+}
+.history_logo101{
+    width: 93px;
+    height: 59px;
+    background-size: cover;
+}
+.history_logo11{
+    width: 93px;
+    height: 42px;
+    background-size: cover;
+}
+.history_logo12{
+    width: 93px;
+    height: 36px;
+    background-size: cover;
+}
+.history_logo13{
+    width: 93px;
+    height: 36px;
+    background-size: cover;
+}
+.history_logo14{
+    width: 93px;
+    height: 83px;
+    background-size: cover;
+}
+.history_logo15{
+    width: 92px;
+    height: 49px;
+    background-size: cover;
+}
+.history_logo16{
+    width: 93px;
+    height: 184px;
+    background-size: cover;
+}
+.hictory_position16 >.text_oll{
+    margin: 15px 0 0 105px;
+}
+.history_logo17{
+    width: 93px;
+    height: 75px;
+    background-size: cover;
+}
+.hictory_position17 >.text_oll{
+    margin: 15px 0 0 105px;
+}
+.history_logo18{
+    width: 111px;
+    height: 47px;
+    background-size: cover;
+}
+.history_logo19{
+    width: 93px;
+    height: 17px;
+    background-size: cover;
+    margin: 21px 20px 0 0;
+}
+.history_logo191{
+    width: 93px;
+    height: 55px;
+    background-size: cover;
+}
+.history_logo20{
+    width: 92px;
+    height: 61px;
+    background-size: cover;
+}
+.hictory_position20 >.text_oll{
+    margin: 15px 0 0 105px;
+}
+}

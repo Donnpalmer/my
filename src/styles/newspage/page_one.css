@@ -1,0 +1,9 @@
+.page_one_button{
+    width: 232px;
+    height: 50px;
+    background-color: #EBECEC;
+    border: none;
+}
+.page_one_button a{
+    color: black;
+}

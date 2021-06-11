@@ -1,0 +1,80 @@
+.section{
+    display: flex;
+    padding-top: 125px;
+    justify-content: center;
+}
+.section_two{
+    display: none;
+}
+.sectiontext_two{
+    display: none;
+}
+.section_three{
+    display: none;
+}
+.section_one{
+    background-image: url(../picture/caravan.png);
+    width: 209px;
+    height: 208px;
+    margin-right: 80px;
+}
+.sectiontext{
+    width: 600px;
+    font-size: 22px;
+}
+p{
+    margin: 0;
+}
+@media screen and (max-width: 980px){
+    .section_one{
+        margin-right: 26px;
+    }
+    .sectiontext{
+        font-size: 18px;
+        width: 500px;
+    }
+}
+@media screen and (max-width: 768px){
+    .section_one{
+        display: none;
+    }
+    .sectiontext{
+        display: none;
+    }
+    .section{
+        display: block;
+    }
+    .section_two{
+        display: block;
+        background-image: url(../picture/coffi.jpg);
+        width: 277px;
+        height: 234px;
+        margin: 0 auto;
+    }
+    .sectiontext_two{
+        display: block;
+        background-size: 20px;
+        width: 420px;
+        margin: 0 auto;
+    }
+    .text_two{
+        margin: 54px 0 14px 0;
+    }
+    strong{
+        color: #1B9448;
+    }
+}
+@media screen and (max-width: 423px){
+    .sectiontext_two{
+        display: none;
+    }
+    .section_three{
+        display: block;
+        width: 260px;
+        margin: 0 auto;
+        line-height: 26px
+    }
+    .text_three{
+        margin: 38px 0 12px 0;
+    }
+}

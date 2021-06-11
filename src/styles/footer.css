@@ -1,0 +1,113 @@
+.footer{
+    display: block;
+    width: 100%;
+    background-color: #6AB66B;
+}
+.footer_internet2{
+    display: none;
+}
+.footer_time2{
+    display: none;
+}
+.footer_menu{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_description{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.footer_menu_li li{
+    display: inline;
+    font-size: 20px;
+    color: white;
+    padding: 0 30px 0 0;
+}
+.footer_menu_li{
+    margin: 69px 0 0 55px;
+}
+.footer_menu_li ul{
+    padding: 0;
+}
+.footer_internet{
+    margin: 74px 47px 0 0;
+    font-size: 20px;
+    color: white;
+}
+.footer_internet:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer_address{
+    margin: 52px 0 0 55px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer_address_p{
+    margin-bottom: 15px;
+}
+.footer_time{
+    text-align: center;
+    margin: 27px 55px 0 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1017px){
+.footer_internet{
+    display: none;
+}
+.footer_internet2{
+    display: block;
+    text-align: center;
+    margin-right: 26px;
+    font-size: 20px;
+    color: white;
+}
+.footer_menu_li{
+    margin: 44px 0 0 30px;
+}
+}
+@media screen and (max-width: 807px){
+.footer_internet2{
+    display: none;
+}
+.footer_time{
+    display: none;
+}
+.footer_menu_li li{
+    padding: 0;
+    display: block;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+}
+.footer_menu_li{
+    margin: 0 auto;
+}
+.footer_description{
+    display: block;
+    text-align: center;
+}
+.footer_address{
+    margin: 0;
+}
+.footer_time2{
+    display: block;
+    width: 140px;
+    margin: 0 auto;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+}

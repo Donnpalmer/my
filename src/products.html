@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header_products">
+        <div class="nav_products">
+            <span id="trigger" class="trigger">
+              <i></i>
+              <i></i>
+              <i></i>
+            </span>
+              <ul id="menu" class="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О компании</a></li>
+                <li><a href="products.html">Продукция</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="">Интернет-магазин</a></li>
+              </ul>
+        </div>
+        <div class="products_logo"></div>
+        <div class="products_internet">
+            <div class="products_internet_img"></div>
+            <p>Интернет-магазин</p>
+        </div>
+        <div class="products_menu">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О компании</a></li>
+                <li><a href="products.html">Продукция</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="section_products">
+        <div class="section_products_left">
+            <span id="text_left_bold">Продукция</span>
+            <div class="none_search">
+                <input type="text">
+                <button>Найти</button>
+                <button id="search_products_mobile2"></button>
+            </div>
+            <ul>
+                <li><span class="tab1">Чай</span></li>
+                <li><span class="tab2">Кофе</span></li>
+                <li><span class="tab3">Какао, цикорий.<br class="br_products"> <span class="hot_none">горячие напитки</span> </span></li>
+                <li><span class="tab4">Снэки</span></li>
+            </ul>
+        </div>
+        <div class="section_products_right">
+            <span class="products2">Продукция</span>
+            <div class="search_products">
+                <input type="text">
+                <button>Найти</button>
+                <button id="search_products_mobile"></button>
+            </div>
+            
+            <hr>
+            <div class="filters_products">
+                <select name="type" id="type">
+                    <option value="Тип">Тип</option>
+                    <option value="белый чай">белый чай</option>
+                    <option value="зеленый чай">зеленый чай</option>
+                    <option value="желтый чай">желтый чай</option>
+                </select>
+                <select name="view" id="view">
+                    <option value="Вид">Вид</option>
+                    <option value="Флауэри Пеко">Флауэри Пеко</option>
+                    <option value="Оранж Пеко">Оранж Пеко</option>
+                    <option value="Пеко">Пеко</option>
+                </select>
+                <select name="brand" id="brand">
+                    <option value="Бренд">Бренд</option>
+                    <option value="Akbar">Akbar</option>
+                    <option value="Gordon">Gordon</option>
+                    <option value="Dilmah">Dilmah</option>
+                </select>
+                <select name="features" id="features">
+                    <option value="Особенности">Особенности</option>
+                    <option value="Дубильные вещества">Дубильные вещества</option>
+                    <option value="Эфирные масла">Эфирные масла</option>
+                    <option value="Алкалоиды">Алкалоиды</option>
+                </select>
+                <button class="apply_products">Применить</button>
+                <button class="complete_products">✖</button>
+            </div>
+            <button class="apply_products2">Применить</button>
+            <button class="complete_products2">Очистить</button>
+            <hr>
+         <div class="big_modal">   
+            <div  class="modal_products">
+                <div class="modal_top">
+                    <div class="modal_windows">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>100g</p></div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>
+                    </div>
+                    <div class="modal_windows">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn2" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>110g</p> </div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>  
+                    </div>
+                    <div class="modal_windows prod1">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn3" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>120g</p> </div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="modal_bottom">
+                    <div class="modal_windows">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn4" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>130g</p> </div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>
+                    </div>
+                    <div class="modal_windows">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn5" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>140g</p> </div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>
+                    </div>
+                    <div class="modal_windows prod1">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn6" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>150g</p> </div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="big_modal2">
+            <div  class="modal_products2">
+                <div class="modal_top">
+                    <div class="modal_windows">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>200g</p></div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>
+                    </div>
+                    <div class="modal_windows">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn2" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>210g</p> </div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>  
+                    </div>
+                    <div class="modal_windows prod1">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn3" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>220g</p> </div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="modal_bottom">
+                    <div class="modal_windows">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn4" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>230g</p> </div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>
+                    </div>
+                    <div class="modal_windows">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn5" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>240g</p> </div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>
+                    </div>
+                    <div class="modal_windows prod1">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn6" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>250g</p> </div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="big_modal3">
+            <div  class="modal_products3">
+                <div class="modal_top">
+                    <div class="modal_windows">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>300g</p></div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>
+                    </div>
+                    <div class="modal_windows">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn2" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>310g</p> </div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>  
+                    </div>
+                    <div class="modal_windows prod1">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn3" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>320g</p> </div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="modal_bottom">
+                    <div class="modal_windows">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn4" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>330g</p> </div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>
+                    </div>
+                    <div class="modal_windows">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn5" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>340g</p> </div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>
+                    </div>
+                    <div class="modal_windows prod1">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn6" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>350g</p> </div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="big_modal4">
+            <div  class="modal_products4">
+                <div class="modal_top">
+                    <div class="modal_windows">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>400g</p></div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>
+                    </div>
+                    <div class="modal_windows">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn2" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>410g</p> </div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>  
+                    </div>
+                    <div class="modal_windows prod1">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn3" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>420g</p> </div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="modal_bottom">
+                    <div class="modal_windows">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn4" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>430g</p> </div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>
+                    </div>
+                    <div class="modal_windows">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn5" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>440g</p> </div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>
+                    </div>
+                    <div class="modal_windows prod1">
+                    <div class="columns_products">
+                    <div class="modal_img">
+                        <button id="myBtn6" class="modal_img_button">Подробнее</button>
+                    </div>
+                    <div class="elipse_pr"><p>450g</p> </div>
+                    <h4>Восточная сказка</h4>
+                    <p>Черный листовой</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            
+            <div id="mypopup" class="vmodal">
+            <div class="modal-overlay">
+            <div class="modal_windows_open">
+                <button class="windows_close">✖</button>
+                <div class="modal_windows_oll">
+                    <div class="modal_windows_open_img"></div>
+                    <div class="modal_windows_open_right">
+                   
+                        <h4>Восточная сказка</h4>
+                        <p>Масса нетто: 100г</p>
+                        <div class="open_filters">
+                            <div >Листовой</div>
+                            <div>Черный</div>
+                        </div>
+                        <div class="open_filters2">Подарочная упаковка</div>
+                        <h5>Удачная упаковка, создана <br> профессионалами! Прозрачное <br> окошко демонстрирует <br> преимущества товара.</h5>
+                        <p>Чай "Восточная сказка" сделан из <br> 100%-ного цейлонского сырья.<br> В составе только крупный лист.</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+            </div>
+            </div>
+        </div> 
+    </div>
+    <div class="footer">
+        <div class="footer_menu">
+            <div class="footer_menu_li">
+                 <ul>
+                     <li><a href="index.html">Главная</a></li>
+                     <li><a href="about.html">О компании</a></li>
+                     <li><a href="products.html">Продукция</a></li>
+                     <li><a href="news.html">Новости</a></li>
+                     <li><a href="contacts.html">Контакты</a></li>
+                 </ul>
+            </div>
+            <div class="footer_internet">
+                <li><a href=""></a>Перейти в интернет-магазин</li>
+            </div>
+        </div>
+        <div class="footer_internet2"> 
+         <li><a href=""></a>Перейти в интернет-магазин</li>
+        </div>
+        <div class="footer_description">
+         <div class="footer_time2">
+             <span >Время работы: <br> пн-пт  9.00 - 17.00</span>
+         </div>
+            <div class="footer_address">
+                <p class="footer_address_p">
+                 Почтовый адрес: 220090, Республика Беларусь, г. Минск, <br> 
+                 Логойский тракт 37,этаж 14.
+                </p>
+                <p>
+                 Юридический адрес 223141, Республика Беларусь, Минская <br> 
+                 область, г. Логойск, переулок Восточный, дом 4, кабинет №1-7.
+                </p>
+            </div>
+            <div class="footer_time">
+                <span >Время работы: <br> пн-пт  9.00 - 17.00</span>
+            </div>
+        </div>
+    </div>
+    <script src="modal.js"></script>
+</body>
+</html>

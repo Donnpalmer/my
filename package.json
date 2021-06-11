@@ -1,0 +1,40 @@
+{
+  "name": "my",
+  "version": "1.0.0",
+  "description": "webpack kyrs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Donnpalmer/my.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "webpack"
+  ],
+  "author": "Khodakovsky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Donnpalmer/my/issues"
+  },
+  "homepage": "https://github.com/Donnpalmer/my#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^5.2.4",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "html-webpack-plugins": "^3.0.0",
+    "jquery": "^3.6.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {}
+}

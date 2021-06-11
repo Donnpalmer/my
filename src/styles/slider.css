@@ -1,0 +1,59 @@
+.slider{
+    width: 100%;
+    margin:  auto;
+    overflow: hidden;
+}
+.slider-line{
+    display: flex;
+    transition: all ease 1s;
+}
+.slider_item{
+    background-image: url(../picture/coffi.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    
+}
+.slider1_item{
+    background-image: url(../picture/coffi1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.slider2_item{
+    background-image: url(../picture/coffi2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.slider3_item{
+    background-image: url(../picture/coffi3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.slider-next{
+    margin-right: 5px;
+    
+}
+.slider-prev{
+   margin-left: 5px; 
+}
+.button_style{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.button{
+    width: 60px;
+    height: 50px;
+    border-radius: 30%;
+    background-color: #6AB66B;
+    border-color: #6AB66B;
+    border: 2px;
+    
+}

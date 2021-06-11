@@ -1,0 +1,101 @@
+.partner-right-none{
+    display: none;
+}
+.about2{
+    display: none;
+}
+.about_section{
+    background-color: rgba(106, 182, 107, 0.1);;
+    padding: 130px 0 130px 0;
+}
+.about_section h2{
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 26px;
+    text-align: center;
+    margin: 0 0 75px 0;
+}
+.partner{
+    display: flex;
+    width: 1104px;
+    margin: 0 auto;
+}
+.partner-left-logo{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url(../../picture/Veco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 10px rgba(27, 148, 72, 0.5);
+}
+.leftrepeat{
+    display: flex;
+    margin: 0 0 51px 0;
+}
+.partner-right{
+    width: 317px;
+    height: 317px;
+    background-image: url(../../picture/ttttt.png);
+    margin: 150px 0 0 66px;
+}
+.leftrepeat p {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 15px 0 0 48px;
+}
+@media screen and (max-width: 1121px){
+.partner-right{
+    margin: 150px 0 0 10px;
+}
+.partner{
+    width: 1048px;
+}
+}
+@media screen and (max-width: 1067px){
+.partner {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+} 
+.partner-right{
+    margin: 0 auto 30px auto;
+}  
+.partner-left{
+    width: 721px;
+    margin: 0 auto;
+}
+.about_section{
+    padding: 100px 0 100px 0;
+}
+}
+@media screen and (max-width: 767px){
+.about_section h2{
+    font-size: 22px;
+    line-height: 36px;
+}
+.partner-right{
+    width: 226px;
+    height: 226px;
+    background-size: cover;
+}
+.partner-left-logo{
+    width: 36px;
+    height: 36px;
+}
+.leftrepeat p{
+    display: none;
+}
+.about2{
+    display: block;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    margin: 0 0 0 28px;
+}
+.partner-left{
+    width: 349px;
+}
+}

@@ -1,0 +1,69 @@
+
+.products_internet{
+    display: none;
+}
+.header_products{
+    height: 74px;
+    background-color: #6AB66B; 
+    display: flex;
+}
+.products_logo{
+    background-image: url(../../picture/caravan-pro.svg);
+    width: 86px;
+    height: 43px;
+    margin: 15px 0 0 50px;
+}
+.products_menu{
+    height: 20px;
+    margin: 11px 0 0 83px;
+}
+.products_menu li{
+    display: inline;
+    font-size: 20px;
+    color: white;
+    padding-right: 40px;
+    
+}
+@media screen and (max-width: 940px){
+.products_menu{
+    margin-left: 10px;
+}
+.products_menu li{
+    padding-right: 15px;
+}
+}
+@media screen and (max-width: 768px){
+.products_menu{
+    display: none;
+}
+.products_internet{
+    position: absolute;
+    display: flex;
+    margin: 27px 0 0 70%;
+    color: #ffff;
+}
+.products_internet_img{
+    background-image: url(../../picture/Group.svg);
+    width: 18px;
+    height: 21px;
+    margin-right: 7px;
+}
+.products_logo{
+    position: absolute;
+    margin-left: 90px;
+}
+.nav_products .trigger{
+    margin: 16px 0 0 30px;
+}
+.nav_products .menu{
+    margin-top: 11px;
+}
+}
+@media screen and (max-width: 559px){
+.products_internet p{
+    display: none;
+}
+.products_internet{
+    margin-left: 90%;
+}
+}

@@ -1,0 +1,129 @@
+.main{
+    display: flex;
+    padding-top: 50px;
+    background-color: #E7EFE7;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+}
+.main_text2{
+    display: none;
+}
+.main_text3{
+    display: none;
+}
+.top_text{
+    padding-top: 100px;
+    background-color: #E7EFE7;
+    margin-top: 130px;
+}
+.main_text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    margin: 0 auto;
+}
+.main_columns{
+    display: flex;
+    flex-direction: column;
+    margin-right: 88px;
+}
+.main_columns2{
+    display: flex;
+    flex-direction: column;
+}
+.advantages{
+    display: flex;
+    width: 441px;
+    height: 146px;
+    background: #FAFAFA;
+    box-shadow: 0px 0px 20px rgba(27, 148, 72, 0.3);
+    border-radius: 10px;
+    margin-bottom: 18px;
+}
+.main_img{
+    margin: 33px 28px 0 33px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-content: center;
+    box-shadow: 0px 0px 10px rgba(121, 126, 123, 0.5);
+    
+}
+
+.main_text1{
+    margin-top: 38px;
+}
+.pic1{
+    background-image: url(../picture/Group1.svg);
+}
+.pic2{
+    background-image: url(../picture/Group2.svg);
+}
+.pic3{
+    background-image: url(../picture/Group3.svg);
+}
+.pic4{
+    background-image: url(../picture/Group4.svg);
+}
+.pic5{
+    background-image: url(../picture/Group5.svg);
+}
+.pic6{
+    background-image: url(../picture/Group6.svg);
+}
+@media screen and (max-width: 996px){
+.main_columns{
+    margin-right: 20px;
+}
+}
+@media screen and (max-width: 924px){
+.main_text{
+    display: none;
+}
+.main_text2{
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    margin: 0 auto;
+}
+.advantages{
+    width: 339px;
+    height: 158px;
+    margin-bottom: 30px;
+}
+}
+@media screen and (max-width: 708px){
+.main_text2{
+    display: none;
+}
+.main_text3{
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    margin: 0 auto;
+}
+.main{
+    display: block;
+    height: 1130px;
+}
+.main_columns{
+    width: 340px;
+    margin: 0 auto;
+}
+.main_columns2{
+    width: 340px;
+    margin: 0 auto;
+    
+}
+}
