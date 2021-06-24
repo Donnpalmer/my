@@ -47,8 +47,8 @@
     line-height: 20px;
     color: rgba(255, 255, 255, 0.5);
 }
-.footer_address_p{
-    margin-bottom: 15px;
+.footer_address p{
+    margin: 0 0 10px 0;
 }
 .footer_time{
     text-align: center;
@@ -102,12 +102,18 @@
 .footer_time2{
     display: block;
     width: 140px;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     text-align: center;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
     color: #FFFFFF;
+}
+}
+@media screen and (max-width: 546px){
+.footer_address{
+    width: 344px;
+    margin: 0 auto;
 }
 }

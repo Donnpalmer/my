@@ -1,4 +1,5 @@
 import Post from './Post'
+import './styles/newspage/page_one_centre.css'
 import './styles/newspage/page_one.css'
 import './styles/newspage/newspage.css'
 import './styles/contacts/contacts_questions.css'
@@ -22,8 +23,6 @@ import './contacts.html'
 import './news.html'
 import 'jquery'
 import './burger'
-import './slider'
-
 
 
 const post = new Post('Webpack Post Title')

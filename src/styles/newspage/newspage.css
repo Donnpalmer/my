@@ -8,6 +8,9 @@
     width: 40px;
     height: 49px;
 }
+.news_link{
+    color: black;
+}
 .news_center_right a {
     color: black;
 }

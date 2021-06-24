@@ -50,6 +50,11 @@ module.exports = {
     module: {
         rules: [
           {
+            test: /\.js$/,
+            exclude: /node_modules/,
+            use: ['babel-loader'],
+          },
+          {
             test: /\.css$/,
             use: ['style-loader', 'css-loader'],
           },
@@ -58,12 +63,12 @@ module.exports = {
             loader: 'html-loader',
           },
           {
-            test: /\.(png|jpg|svg|jpeg|gif)$/,
-            use: ['file-loader']
+            test: /\.(?:ico|png|jpg|svg|jpeg|gif)$/i,
+            type: 'asset/resource',
           },
           {
-            test: /\.(ttf|woff|woff2|eot)$/,
-            use: ['file-loader']
+            test: /\.(woff(2)?|eot|ttf|woff|woff2|eot)$/,
+            type: 'asset/inline',
           }
         ],
       }

@@ -6,24 +6,19 @@
     height: 600px;
     justify-content: center;
 }
-.main_text2{
-    display: none;
-}
-.main_text3{
-    display: none;
-}
 .top_text{
     padding-top: 100px;
     background-color: #E7EFE7;
     margin-top: 130px;
 }
 .main_text{
+    width: 500px;
+    margin: 0 auto;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 52px;
-    text-align: center;
-    margin: 0 auto;
+    text-align: center; 
 }
 .main_columns{
     display: flex;
@@ -51,12 +46,11 @@
     background-repeat: no-repeat;
     background-position: center;
     align-content: center;
-    box-shadow: 0px 0px 10px rgba(121, 126, 123, 0.5);
-    
+    box-shadow: 0px 0px 10px rgba(121, 126, 123, 0.5);  
 }
-
 .main_text1{
-    margin-top: 38px;
+    margin: 43px 0 0 0;
+    width: 290px;
 }
 .pic1{
     background-image: url(../picture/Group1.svg);
@@ -82,17 +76,9 @@
 }
 }
 @media screen and (max-width: 924px){
-.main_text{
-    display: none;
-}
-.main_text2{
-    display: block;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 52px;
-    text-align: center;
-    margin: 0 auto;
+.main_text1{
+    margin: 32px 0 0 0;
+    width: 173px;
 }
 .advantages{
     width: 339px;
@@ -101,17 +87,10 @@
 }
 }
 @media screen and (max-width: 708px){
-.main_text2{
-    display: none;
-}
-.main_text3{
-    display: block;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 52px;
-    text-align: center;
-    margin: 0 auto;
+.main_text{
+    width: 316px;
+    font-size: 25px;
+    line-height: 32px;
 }
 .main{
     display: block;
@@ -123,7 +102,6 @@
 }
 .main_columns2{
     width: 340px;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
 }

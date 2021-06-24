@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body class="never_slide">
     <header class="header_products">
         <div class="nav_products">
             <span id="trigger" class="trigger">
@@ -38,31 +38,85 @@
             </ul>
         </div>
     </header>
-
-    <div class="page_one">
-        <button class="page_one_button"><a href="news.html">Вернуться назад</a></button>
+    <div class="pagination_button">
+        <a href="./news.html"><button>Вернуться назад</button> </a>
     </div>
-
-    <div class="flex-wrapper">
-        <div class="slider-wrapper">
-            <div class="slide"></div>
-            <div class="slide"></div>
-            <div class="slide"></div>
-        </div>
+    <div class="pagination_white">
+    <div class="slideshow-container1">
+      <div class="newspage_text1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p> </div>
+      <div class="mySlides1 fade">
+          <img src="./picture/galersp.jpg" >
+      </div>
+      <div class="mySlides1 fade">
+          <img src="./picture/cappuccino.jpg">
+      </div>
+      <div class="mySlides1 fade">
+          <img src="./picture/galersp.jpg">
+      </div>
+      <div class="mySlides1 fade">
+        <img src="./picture/cappuccino.jpg">
     </div>
-
-    <div id=pop></div>
-    <div id=pop2></div>
-
-    <div class="dots-wraper">
-        <div class="dot"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
+  </div>
+  
+  <br>
+  
+  <div style="display: flex; justify-content: center;">
+    <div class="about_prev"><a class="prev1" onclick="plusSlides(-1)">&#10094;</a></div>
+  <span class="dot1 trabl1"  onclick="currentSlides(1)"></span>
+  <span class="dot1 trabl2" onclick="currentSlides(2)"></span>
+  <span class="dot1 trabl3" onclick="currentSlides(3)"></span>
+  <span class="dot1 trabl4" onclick="currentSlides(4)"></span>
+  <div class="about_next"><a class="next1" onclick="plusSlides(1)">&#10095;</a></div>
+  </div>
+  <div class="newspage_text2"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p> </div>
+    
+  <div class="pagination_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
     </div>
+    <div class="paginations_img"></div>
+    <div class="pagination_text2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+      </div>
+</div>
 
-
-
-
-    <script src="pagination.js"></script>
+<div class="footer">
+  <div class="footer_menu">
+      <div class="footer_menu_li">
+           <ul>
+               <li><a href="index.html">Главная</a></li>
+               <li><a href="about.html">О компании</a></li>
+               <li><a href="products.html">Продукция</a></li>
+               <li><a href="news.html">Новости</a></li>
+               <li><a href="contacts.html">Контакты</a></li>
+           </ul>
+      </div>
+      <div class="footer_internet">
+          <li><a href=""></a>Перейти в интернет-магазин</li>
+      </div>
+  </div>
+  <div class="footer_internet2"> 
+   <li><a href=""></a>Перейти в интернет-магазин</li>
+  </div>
+  <div class="footer_description">
+   <div class="footer_time2">
+       <span >Время работы: <br> пн-пт  9.00 - 17.00</span>
+   </div>
+      <div class="footer_address">
+          <p class="footer_address_p">
+           Почтовый адрес: 220090, Республика Беларусь, г. Минск, <br> 
+           Логойский тракт 37,этаж 14.
+          </p>
+          <p>
+           Юридический адрес 223141, Республика Беларусь, Минская <br> 
+           область, г. Логойск, переулок Восточный, дом 4, кабинет №1-7.
+          </p>
+      </div>
+      <div class="footer_time">
+          <span >Время работы: <br> пн-пт  9.00 - 17.00</span>
+      </div>
+  </div>
+</div>
+    
+<script src="./pagination.js"></script>
 </body>
 </html>

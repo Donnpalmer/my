@@ -34,7 +34,7 @@ body{
     display: inline;
     font-size: 20px;
     color: white;
-    padding: 0 40px 0 45px;
+    padding: 0 65px 0 0px;
 }
 .main_menu ul{
     text-decoration: none;
@@ -43,9 +43,12 @@ body{
 }
 .header__container_main{
     display: flex;
-    width: 100%;
+    width: 75%;
     margin: 0 auto;
     padding-top: 40px;
+}
+.header__container_main ul{
+    padding: 0;
 }
 .header__container_left{
     display: flex;
@@ -67,14 +70,32 @@ body{
 .ru{
     padding-left: 25px;
 }
+@media screen and (max-width: 1390px){
+.header__container_main{
+    width: 82%;
+}
+}
+@media screen and (max-width: 1274px){
+.header__container_main{
+    width: 87%;
+}
+}
+@media screen and (max-width: 1054px){
+.header__container_main{
+    width: 94%;
+}
+}
 @media screen and (max-width: 1200px){
 .main_menu li{
-    padding: 0 20px 0 20px;
+    padding: 0 40px 0 0;
 }
 }
 @media screen and (max-width: 980px){
+.header__container_main{
+    width: 78%;
+}
 .main_menu li{
-    padding: 0 15px 0 15px;
+    padding: 0 30px 0 0;
     font-size: 15px;
 }
 .header__container_left{
@@ -86,3 +107,13 @@ body{
     z-index: 30;
 }
 
+@media screen and (max-width: 894px){
+.header__container_main{
+    width: 84%;
+}
+}
+@media screen and (max-width: 830px){
+    .header__container_main{
+        width: 92%;
+    }
+    }

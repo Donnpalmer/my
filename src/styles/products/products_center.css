@@ -274,9 +274,6 @@ hr{
 .section_products{
     display: block;
 }
-.br_products{
-    display: none;
-}
 .products2{
     display: none;
 }
@@ -317,7 +314,7 @@ hr{
 }
 .section_products_left li{
     display: inline;
-    padding: 0 0 0 75px;
+    padding: 0 0 0 109px;
 }
 .section_products_right{
     width: 870px;
@@ -339,7 +336,7 @@ hr{
     width: 547px;
 }
 .section_products_left li{
-    padding: 0 0 0 41px;
+    padding: 0 0 0 74px;
 }
 .section_products_right{
     width: 712px;
@@ -423,9 +420,6 @@ hr{
 }
 .none_search{
     display: flex;
-}
-.hot_none{
-    display: none;
 }
 #search_products_mobile2{
     display: block;
